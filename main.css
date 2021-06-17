@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+    color: #626262;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h1, h2 {
+    color: #626262;
+}
+
+h6 {
+    font-weight: 400;
+    color: #c7c1b6;
+}
+
+img {
+    max-width: 100%;
+}
+
+.content_img {
+    height: 295px;
+    max-width: 420px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.section {
+    max-width: 910px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* Header */
+
+.header {
+    background: url(images/header_img.jpg)center no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding-top: 50px;
+    padding-bottom: 580px;
+}
+
+.navbar ul {
+    margin-left: auto;
+}
+
+.navbar ul li a {
+    color: #626262;
+    /* font-size: 22px; */
+}
+
+/* End Header */
+
+
+/* GATAWAY SECTION */
+
+.gataway {
+    padding-top: 90px;
+}
+
+.gataway h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.gataway p {
+    padding-bottom: 15px;
+}
+
+
+/* END GATAWAY SECTION */
+
+
+/* CONTENT SECTION */
+
+.content {
+    padding-top: 100px;
+}
+
+.content_item {
+    flex-basis: 50%;
+}
+
+.content_item h6 {
+    padding-top: 30px;
+}
+
+.content_item h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content_item p {
+    padding-bottom: 100px;
+}
+
+/* END CONTENT SECTION */
+
+
+/* CALL TO ACTION */
+
+.cta_bg {
+    background: #f0f0f0;
+    /* padding-bottom: 70px; */
+}
+
+.cta {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    /* border-bottom: 1px solid black; */
+}
+
+.cta h1 {
+    font-size: 26px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.cta input {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: #f0f0f0;
+    max-width: 400px;
+    display: block;
+}
+
+/* END CALL TO ACTION */
+
+
+/* MORE CONTENT */
+
+.button .btn{
+   padding: 10px 20px;
+   border: 1px solid #626262;
+   color: #626262;
+}
+
+.more_content {
+    padding-top: 100px;
+    padding-bottom: 500px;
+}
+
+/* END MORE CONTENT */
